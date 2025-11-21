@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Module-Origin: https://github.com/opensearch-project/OpenSearch.git
+Change: 5a865ad0b9131c811510d52b8ef53a7a85ba5503
+X-Compile-OpenSearch-Version: 3.2.0-SNAPSHOT
+X-Compile-Lucene-Version: 10.2.2
+X-Compile-OpenSearch-Snapshot: true
+Implementation-Title: org.opensearch.gradle#build-tools;3.2.0-SNAPSHOT
+Implementation-Version: 3.2.0-SNAPSHOT
+Built-Status: integration
+Built-By: rajivkv
+Built-OS: Mac OS X
+Build-Timezone: Asia/Kolkata
+Build-Date-UTC: 2025-11-12T14:45:04.533986Z
+Build-Date: 2025-11-12T14:44:57.425020Z
+Gradle-Version: 8.14.3
+Created-By: 21.0.8+9-LTS (Amazon.com Inc.)
+X-Compile-Target-JDK: 21
+X-Compile-Source-JDK: 21
+Build-Java-Version: 21
+

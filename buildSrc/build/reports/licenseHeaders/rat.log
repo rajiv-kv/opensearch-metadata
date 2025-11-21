@@ -1,0 +1,230 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2025-11-12T20:17:26+05:30
+
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 204
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/BuildPluginIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/ExportOpenSearchBuildResourcesTaskIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/ReaperPluginIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/precommit/TestingConventionsTasksIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/precommit/ThirdPartyAuditTaskIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/java/org/opensearch/gradle/tar/SymbolicLinkPreservingTarIT.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/DistributionDownloadPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/JdkDownloadPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/OpenSearchJavaPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/OpenSearchTestBasePluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/TestClustersPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/fixtures/AbstractGradleFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/fixtures/DistributionDownloadFixture.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/fixtures/WiremockFixture.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/internal/InternalBwcGitPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/internal/InternalDistributionArchiveCheckPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/internal/InternalDistributionArchiveSetupPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/internal/InternalDistributionBwcSetupPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/integTest/groovy/org/opensearch/gradle/internal/InternalDistributionDownloadPluginFuncTest.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/AbstractLazyPropertyCollection.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/Architecture.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/BwcVersions.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/ConcatFilesTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/DistributionDependency.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/DistributionDownloadPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/DistributionResolution.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/DockerBase.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/EmptyDirTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/ExportOpenSearchBuildResourcesTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/FileSupplier.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/FileSystemOperationsAware.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/JavaPackageType.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/JavaVariant.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/Jdk.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/JdkDownloadPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/Jre.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/JreDownloadPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/LazyFileOutputStream.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/LazyPropertyList.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/LazyPropertyMap.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/LoggedExec.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/LoggingOutputStream.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/OS.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/OpenSearchDistribution.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/OpenSearchJavaPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/OpenSearchTestBasePlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/PropertyNormalization.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/PublishPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/ReaperPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/ReaperService.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/RepositoriesSetupPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/SimpleCommandLineArgumentProvider.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/SystemPropertyCommandLineArgumentProvider.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/Version.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/VersionProperties.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/agent/JavaAgent.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/dependencies/CompileOnlyResolvePlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/docker/DockerBuildTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/docker/DockerSupportPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/docker/DockerSupportService.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/http/WaitForHttpResource.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/info/BuildParams.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/info/FipsBuildParams.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/info/GlobalBuildInfoPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/info/JavaHome.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/BwcGitExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/BwcSetupExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/DistributionArchive.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/DistributionArchiveCheckExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/InternalBwcGitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/InternalDistributionArchiveCheckPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/InternalDistributionArchiveSetupPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/InternalDistributionBwcSetupPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/internal/InternalDistributionDownloadPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/jvm/JvmTestSuiteHelper.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/plugin/PluginPropertiesExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/pluginzip/Publish.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/DependencyLicensesPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/DependencyLicensesTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/FilePermissionsPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/FilePermissionsTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ForbiddenApisPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ForbiddenPatternsPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ForbiddenPatternsTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/JarHellPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/JarHellTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/LicenseAnalyzer.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/LoggerUsagePrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/LoggerUsageTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/PomValidationPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/PomValidationTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/PrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/PrecommitTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/PrecommitTaskPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/TestingConventionRule.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/TestingConventionsPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/TestingConventionsTasks.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ThirdPartyAuditPrecommitPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ThirdPartyAuditTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/UpdateShasTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ValidateJsonAgainstSchemaTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ValidateJsonNoKeywordsTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/precommit/ValidateRestSpecPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/tar/SymbolicLinkPreservingTar.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/tar/SymoblicLinkPreservingTarPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/DistroTestPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/ErrorReportingTestListener.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/Fixture.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/GradleDistroTestTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/InternalClusterTestPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/JNAKernel32Library.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/RestIntegTestTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/RestTestBasePlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/TestSuiteConventionMappings.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/TestTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/CopyRestApiTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/CopyRestTestsTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/JavaRestTestPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/RestResourcesExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/RestResourcesPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/RestTestUtil.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/test/rest/YamlRestTestPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/DefaultTestClustersTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/ExtensionsProperties.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/OpenSearchCluster.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/OpenSearchNode.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/RunTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/StandaloneRestIntegTestTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClusterConfiguration.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClustersAware.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClustersException.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClustersPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClustersRegistry.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestClustersThrottle.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestDistribution.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testclusters/TestExtensionsList.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testfixtures/DockerComposeThrottle.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testfixtures/TestFixtureExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/testfixtures/TestFixturesPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/transform/SymbolicLinkPreservingUntarTransform.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/transform/UnpackTransform.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/transform/UnzipTransform.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/util/FileUtils.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/util/GradleUtils.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/util/JavaUtil.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/util/PermissionUtils.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/util/Util.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/vagrant/VagrantBasePlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/vagrant/VagrantExtension.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/vagrant/VagrantMachine.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/vagrant/VagrantProgressLogger.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/java/org/opensearch/gradle/vagrant/VagrantShellTask.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/AntTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/BuildPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/CheckCompatibilityTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/DependenciesInfoPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/DependenciesInfoTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/FileContentsTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/MavenFilteringHack.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/NoticeTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/ResolveAllDependencies.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/doc/DocsTestPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/doc/RestTestsFromSnippetsTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/doc/SnippetsTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/plugin/OptionalDependenciesPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/plugin/PluginBuildPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/precommit/LicenseHeadersPrecommitPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/precommit/LicenseHeadersTask.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/precommit/PrecommitTasks.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/AntFixture.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/ClusterConfiguration.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/ClusterFormationTasks.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/NodeInfo.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/RestTestPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/StandaloneRestTestPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/StandaloneTestPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/TestWithDependenciesPlugin.groovy
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/main/groovy/org/opensearch/gradle/test/TestWithSslPlugin.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/ArchitectureTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/BwcVersionsTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/ConcatFilesTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/DistributionDownloadPluginTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/EmptyDirTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/JdkDownloadPluginTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/VersionTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/agent/JavaAgentTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/doc/RestTestFromSnippetsTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/docker/DockerSupportServiceTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/http/WaitForHttpResourceTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/info/FipsBuildParamsTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/plugin/OptionalDependenciesPluginTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/plugin/PluginBuildPluginTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/plugin/PluginPropertiesExtensionTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/pluginzip/PublishTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/precommit/DependencyLicensesTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/precommit/FilePermissionsTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/precommit/ForbiddenPatternsTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/test/java/org/opensearch/gradle/precommit/UpdateShasTaskTests.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/BaseTestCase.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/GradleIntegrationTestCase.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/GradleThreadsFilter.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/GradleUnitTestCase.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/JUnit3MethodProvider.java
+  SPDX  /Users/rajivkv/opensearch-main2/OpenSearch/buildSrc/src/testFixtures/java/org/opensearch/gradle/test/TestClasspathUtils.java
+ 
+*****************************************************
