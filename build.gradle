@@ -1,0 +1,90 @@
+plugins {
+    id 'opensearch.global-build-info'
+    id 'opensearch.publish'
+    id 'java-library'
+    id 'idea'
+}
+
+publishing {
+  publications {
+    nebula(MavenPublication) {
+      pom {
+        name = 'OpenSearch Metadata Common'
+        description = 'OpenSearch metadata common library'
+        licenses {
+          license {
+            name = 'The Apache Software License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+        developers {
+          developer {
+            name = 'OpenSearch Contributors'
+            url = 'https://github.com/opensearch-project/OpenSearch'
+          }
+        }
+      }
+    }
+  }
+}
+
+allprojects {
+    group = 'org.opensearch'
+    version = '3.2.0'
+    
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+subprojects {
+    apply plugin: 'idea'
+    
+    description = "OpenSearch ${project.name} library"
+    project.ext.licenseName = 'The Apache Software License, Version 2.0'
+    project.ext.licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    
+    plugins.withType(org.opensearch.gradle.BuildPlugin).whenPluginAdded {
+        project.licenseFile = project.rootProject.file('licenses/APACHE-LICENSE-2.0.txt')
+        project.noticeFile = project.rootProject.file('NOTICE.txt')
+    }
+    
+    test.enabled = false
+}
+
+base {
+    archivesName = 'opensearch-metadata-common'
+}
+
+dependencies {
+    api project(':libs:opensearch-common')
+    api project(':libs:opensearch-core')
+    api project(':libs:metadata-common-util')
+    api project(':libs:opensearch-x-content')
+
+    // time handling
+    api 'joda-time:joda-time:2.12.7'
+
+    // logging
+    api 'org.apache.logging.log4j:log4j-api:2.21.0'
+    api 'org.apache.logging.log4j:log4j-jul:2.21.0'
+    api 'org.apache.logging.log4j:log4j-core:2.21.0'
+    annotationProcessor 'org.apache.logging.log4j:log4j-core:2.21.0'
+
+    // minimal lucene dependencies for remaining classes
+    api 'org.apache.lucene:lucene-core:10.2.2'
+    api 'org.apache.lucene:lucene-suggest:10.2.2'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.compilerArgs -= '-Xlint:cast'
+    options.compilerArgs -= '-Xlint:rawtypes'
+    options.compilerArgs -= '-Xlint:unchecked'
+}
+
+test.enabled = false
+
+afterEvaluate {
+    tasks.findByName('validateNebulaPom')?.enabled = false
+}

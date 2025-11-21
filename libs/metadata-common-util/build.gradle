@@ -1,0 +1,48 @@
+apply plugin: 'java-library'
+apply plugin: 'opensearch.publish'
+
+publishing {
+  publications {
+    nebula(MavenPublication) {
+      pom {
+        name = 'OpenSearch Metadata Common Utilities'
+        description = 'OpenSearch metadata common utilities library'
+        licenses {
+          license {
+            name = 'The Apache Software License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+        developers {
+          developer {
+            name = 'OpenSearch Contributors'
+            url = 'https://github.com/opensearch-project/OpenSearch'
+          }
+        }
+      }
+    }
+  }
+}
+
+base {
+    archivesName = 'metadata-common-util'
+}
+
+dependencies {
+    api project(':libs:opensearch-common')
+    api project(':libs:opensearch-core')
+    api project(':libs:opensearch-x-content')
+    
+    // Lucene dependencies
+    api libs.lucene.core
+    api libs.lucene.suggest
+    api "org.apache.lucene:lucene-backward-codecs:10.2.2"
+    
+    // Additional dependencies for common utilities
+    api libs.log4japi
+    api libs.jodatime
+    api "org.yaml:snakeyaml:2.1"
+    
+    testImplementation libs.junit
+    testImplementation libs.hamcrest
+}

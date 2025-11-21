@@ -1,0 +1,33 @@
+apply plugin: 'java-library'
+apply plugin: 'opensearch.publish'
+
+publishing {
+  publications {
+    nebula(MavenPublication) {
+      pom {
+        licenses {
+          license {
+            name = 'The Apache Software License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+        developers {
+          developer {
+            name = 'OpenSearch Contributors'
+            url = 'https://github.com/opensearch-project/OpenSearch'
+          }
+        }
+      }
+    }
+  }
+}
+
+dependencies {
+  api project(':libs:opensearch-common')
+  api project(':libs:opensearch-core')
+  api "org.yaml:snakeyaml:2.1"
+  api "com.fasterxml.jackson.core:jackson-core:2.18.2"
+  api "com.fasterxml.jackson.dataformat:jackson-dataformat-smile:2.18.2"
+  api "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.18.2"
+  api "com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.18.2"
+}

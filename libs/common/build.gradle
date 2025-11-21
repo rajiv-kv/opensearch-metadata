@@ -1,0 +1,41 @@
+apply plugin: 'java-library'
+apply plugin: 'opensearch.publish'
+
+publishing {
+  publications {
+    nebula(MavenPublication) {
+      pom {
+        licenses {
+          license {
+            name = 'The Apache Software License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+        developers {
+          developer {
+            name = 'OpenSearch Contributors'
+            url = 'https://github.com/opensearch-project/OpenSearch'
+          }
+        }
+      }
+    }
+  }
+}
+
+base {
+  archivesName = 'opensearch-common'
+}
+
+dependencies {
+  compileOnly "com.google.code.findbugs:jsr305:3.0.2"
+}
+
+tasks.withType(JavaCompile).configureEach {
+  options.compilerArgs -= '-Xlint:unchecked'
+  options.compilerArgs += ['--add-modules', 'jdk.incubator.vector']
+  options.compilerArgs -= '-Werror'
+}
+
+javadoc {
+  options.addStringOption("-add-modules", "jdk.incubator.vector")
+}

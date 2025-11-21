@@ -1,0 +1,15 @@
+rootProject.name = "opensearch-metadata-common"
+
+include 'libs:cli'
+include 'libs:common'
+include 'libs:core'
+include 'libs:lucene'
+include 'libs:metadata-common-util'
+include 'libs:x-content'
+
+project(':libs:cli').name = 'opensearch-cli'
+project(':libs:common').name = 'opensearch-common'
+project(':libs:core').name = 'opensearch-core'
+project(':libs:lucene').name = 'opensearch-lucene'
+project(':libs:metadata-common-util').name = 'metadata-common-util'
+project(':libs:x-content').name = 'opensearch-x-content'

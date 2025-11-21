@@ -1,0 +1,49 @@
+apply plugin: 'opensearch.java'
+apply plugin: 'opensearch.publish'
+
+publishing {
+  publications {
+    nebula(MavenPublication) {
+      pom {
+        licenses {
+          license {
+            name = 'The Apache Software License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+          }
+        }
+        developers {
+          developer {
+            name = 'OpenSearch Contributors'
+            url = 'https://github.com/opensearch-project/OpenSearch'
+          }
+        }
+      }
+    }
+  }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.yaml:snakeyaml:2.1'
+    }
+}
+
+dependencies {
+    api "org.apache.lucene:lucene-core:10.2.2"
+    api "org.apache.lucene:lucene-backward-codecs:10.2.2"
+    api project(':libs:opensearch-core')
+    api project(':libs:opensearch-common')
+    api project(':libs:opensearch-x-content')
+    api project(':libs:metadata-common-util')
+    
+    implementation "org.apache.logging.log4j:log4j-api:2.21.0"
+    implementation "org.apache.logging.log4j:log4j-core:2.21.0"
+}
+
+tasks.named('test') {
+    systemProperty 'tests.security.manager', 'false'
+}
+
+javadoc {
+    enabled = false
+}
